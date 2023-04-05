@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start app.js",
+    "build": "pm2 start app.js",
     "dev": "pm2 start app.js --watch",
     "stop": "pm2 stop app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
